@@ -1,7 +1,7 @@
 # Gl552VX-Mojave
 # Hackintosh GL552VX Mojave 10.14.6
 
-![alt text](https://i.imgur.com/VuENUZU.png)
+![alt text](https://imgur.com/a/RGeocKl)
 
 # Use Hotpatch
 # Working:
@@ -28,8 +28,8 @@
 # SOURCE:
 
 Wifi + airDrop + Bluetooth:
-https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
-https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html#more
+* https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
+* https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html#more
 
 Install Fake-pci-id (FOLDER INSTALL S:L:E):
 https://bitbucket.org/RehabMan/os-x-fake-pci-id
