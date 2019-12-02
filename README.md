@@ -47,4 +47,4 @@ https://olarila.com/forum/viewtopic.php?t=6528
 
 # Special Thanks: 
 This was forked from
-xuanquydsr  https://github.com/xuanquydsr/Gl552VX-Mojave 
+[*xuanquydsr*] (https://github.com/xuanquydsr/Gl552VX-Mojave) 
