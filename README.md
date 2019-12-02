@@ -1,11 +1,11 @@
 # Gl552VX-Mojave
-# Hackintosh GL552VX Mojave 10.14.5
+# Hackintosh GL552VX Mojave 10.14.6
 
 ![alt text](https://i.imgur.com/VuENUZU.png)
 
 # Use Hotpatch
 # Working:
-- Wifi (BCM94352Z DW1560)
+- Wifi (BCM94350ZAE DW1820A)
 - Card Reader
 - sleep (Fn+F1 icon)
 - Airplane mode (Fn+F2 icon)
@@ -29,6 +29,7 @@
 
 Wifi + airDrop + Bluetooth:
 https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
+https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html#more
 
 Install Fake-pci-id (FOLDER INSTALL S:L:E):
 https://bitbucket.org/RehabMan/os-x-fake-pci-id
@@ -43,3 +44,7 @@ OR
 2. AppleHDA Patcher:
 https://olarila.com/forum/viewtopic.php?t=6528
 
+
+# Special Thanks: 
+This was forked from
+xuanquydsr  https://github.com/xuanquydsr/Gl552VX-Mojave 
