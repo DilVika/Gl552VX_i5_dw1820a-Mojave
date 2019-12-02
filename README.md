@@ -1,7 +1,7 @@
 # Gl552VX-Mojave
 # Hackintosh GL552VX Mojave 10.14.6
 
-![alt text](https://imgur.com/a/RGeocKl)
+![alt text](https://i.imgur.com/FCw09ke.png)
 
 # Use Hotpatch
 # Working:
