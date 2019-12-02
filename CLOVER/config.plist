@@ -72,10 +72,12 @@
 				<false/>
 				<key>AddPNLF</key>
 				<false/>
+				<key>FixAirport</key>
+				<false/>
 				<key>FixDisplay</key>
 				<false/>
 				<key>FixHDA</key>
-				<false/>
+				<true/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
@@ -530,7 +532,7 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>igfxrst=1 dart=0 -cdfon brcmfx-country=#a</string>
+		<string>igfxrst=1 dart=0 -cdfon brcmfx-driver=1 brcmfx-country=#a</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -540,7 +542,7 @@
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>1</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -778,7 +780,7 @@
 			<key>#Inject</key>
 			<string>0x0887</string>
 			<key>Inject</key>
-			<string>No</string>
+			<integer>3</integer>
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
@@ -833,6 +835,19 @@
 				AAAAgA==
 				</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>WLAN</string>
+				<key>compatible</key>
+				<string>pci14e4,4353</string>
+				<key>device_type</key>
+				<string>Airport Extreme</string>
+				<key>model</key>
+				<string>DW1820A (BCM4350) 802.11ac Wireless</string>
+				<key>name</key>
+				<string>Airport</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -842,9 +857,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>
-				HAAAAA==
-				</data>
+				<integer>3</integer>
 				<key>model</key>
 				<string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
 			</dict>
@@ -987,6 +1000,7 @@
 		<array>
 			<string>\EFI\BOOT\BOOTX64.EFI</string>
 			<string>Recovery</string>
+			<string>Preboot</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -1002,9 +1016,9 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<string>1366x768</string>
 		<key>Theme</key>
-		<string>SimpleThemeDark</string>
+		<string>Catalina</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -1510,7 +1524,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x3e7</string>
+		<string>0x67</string>
 		<key>MLB</key>
 		<string>C027435017JHRQT11</string>
 		<key>ROM</key>
@@ -1640,7 +1654,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02621301GUHCF9A8</string>
+		<string>C02TD09VGTFN</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1670,9 +1684,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro13,3</string>
 		<key>SerialNumber</key>
-		<string>C02RRHYWGTFN</string>
+		<string>C02TD09VGTFN</string>
 		<key>SmUUID</key>
-		<string>DB469418-ABF0-4E09-8880-FE27735110C1</string>
+		<string>8AC3921B-E4D2-42AC-85E6-5D367EBBB82C</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
