@@ -28,6 +28,10 @@
 # Bluetooth:
 Use BrcmPatchRam3 for Catalina and BrcmPatchRam2 for Mojave (do not use both)!
 
+In Catalina:
+* Install  BrcmPatchRam3, BrcmBluetoothInjector.kext, BrcmFirmwareData.kext  (RECOMENDED).
+* Install BrcmPatchRam3, BrcmBluetoothInjector.kext, BrcmFirmwareRepo.kext  to L:E  (did not tested)
+
 # SOURCE:
 
 Wifi + airDrop + Bluetooth:
