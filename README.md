@@ -34,7 +34,7 @@ Wifi + airDrop + Bluetooth:
 * https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
 * https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html#more
 
-Install Fake-pci-id (FOLDER INSTALL S:L:E):
+Install Fake-pci-id (FOLDER INSTALL L:E):
 https://bitbucket.org/RehabMan/os-x-fake-pci-id
 
 # Audio:
