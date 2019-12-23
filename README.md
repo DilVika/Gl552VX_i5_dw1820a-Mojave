@@ -12,7 +12,7 @@
 - shutdown
 - Intel HD 530
 - HDMI
-- Bluetooth
+- Bluetooth 
 - All USB ports
 - Keyboard 16 (Support Automatically turn off lights)
 - TouchPad with VoodooI2C (Turn off fn+f9 and ignore built-in trackpad when mouse or wireless trackpad is present )
@@ -24,6 +24,9 @@
 - Speaker + Internal Microphone
 - iMessage + FaceTime
 - Disable Touch ID
+
+# Bluetooth:
+Use BrcmPatchRam3 for Catalina and BrcmPatchRam2 for Mojave (do not use both)!
 
 # SOURCE:
 
